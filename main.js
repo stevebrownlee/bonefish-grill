@@ -1,8 +1,5 @@
-import { fishMenu } from "./restaurant.js"
+const { fishMenu } = require("./restaurant.js")
 
-/* Uncomment this code block when you are ready to test
 
-const menu = fishMenu()
-
+const menu = fishMenu(3.49)
 console.log(menu)
-*/
